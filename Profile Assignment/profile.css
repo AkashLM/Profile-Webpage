@@ -1,0 +1,250 @@
+body{
+    background-image: url("back1.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/   
+    
+}
+
+
+.body-container{
+
+    height: 700px;
+    width: 100%;
+    /*background-color: blue;*/
+    display: flex;
+}
+
+
+.body-container-left{
+
+    height: 840px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flexbox;
+    flex-direction: column;
+}
+
+
+
+.body-container-right{
+
+    height: 100%;
+    width: 70%;
+   /* background-color: rgb(224, 71, 71);*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.admin-picture{
+    height:55%;
+    width: 60%;
+    margin-left:20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url("profile2.jpg");
+    background-size: cover;
+    border-radius: 10%;
+    border-color: black;
+    border-style: groove;
+    box-shadow: 6px 10px 8px  rgb(46, 38, 38);
+}
+
+
+
+.admin-info{
+    margin-left:13%;
+    margin-top:2%;
+    height: auto;
+    width: 60%;
+    background-color: whitesmoke;
+    font-size: 120%;
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-radius: 15px 0pc 15px 0px;;
+    border-color: rgb(41, 40, 40);
+    box-shadow: 6px 10px 8px rgb(46, 38, 38);
+    
+   
+}
+
+/*Admin dashborad details start here*/
+
+.body-container-right-top{
+    margin-left:10%;
+    margin-top:3%;
+    height:17%;
+    width: 80%;
+    background-color: whitesmoke;
+    font-size: 70px;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    border-radius: 15%;
+    
+}
+
+
+
+.body-container-right-bottom{
+
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:3%;
+    margin-bottom:3%;
+    height:75%;
+    width: 80%;
+    /*background-color: rgb(26, 224, 36);*/
+
+}
+
+
+.body-container-right-bottom-section1{
+
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:25px;
+    margin-bottom:3%;
+    height:20%;
+    width:800px;
+    /*background-color: rgb(240, 27, 98);*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+.body-container-right-bottom-section1-subR{
+
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:50px; 
+    margin-bottom:3%;
+    height:30%;
+    width:800px;
+    /*background-color: rgb(240, 27, 98);*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+.body-container-right-bottom-section1-subT{
+
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:50px; 
+    margin-bottom:3%;
+    height:350px;
+    width:800px;
+   /* background-color: rgb(240, 27, 98);*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+body-container-right-bottom-section1-left{
+
+  /*css in html file itself*/
+
+
+}
+body-container-right-bottom-section1-right{
+
+     /*css in html file itself*/
+
+}
+
+.dasboard-item-title{
+
+    height: 30%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    background-color: chartreuse;
+    overflow:hidden;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: darkblue;
+    border-radius: 0.5em;
+    padding-top: 1%;
+
+
+}
+
+.dasboard-item-count-number{
+
+    height: 35%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: chartreuse;
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    color: darkmagenta;
+    border-radius: 50px;
+    padding-top: 2%;
+    margin-bottom: 5%;
+
+
+}
+.dasboard-item-count-email{
+
+    height: 33%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: chartreuse;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: darkmagenta;
+    border-radius: 50px;
+    padding-top: 3%;
+    margin-bottom: 5%;
+
+
+}
+
+.dasboard-item-title-sub{
+
+    height: 30%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+   background-color: chartreuse;
+    overflow:hidden;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: darkblue;
+    border-radius: 0.5em;
+
+}
+
+
+.dasboard-item-count-sub{
+
+    height: 20%;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    /*background-color: chartreuse;*/
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    color: darkmagenta;
+
+
+}
+
+
+
+
+/*Admin dashborad details ends here*/
+
